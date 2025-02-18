@@ -1,7 +1,14 @@
-let Age = 19
+let age = " "
+let bal = " "
 
-if (Age < 18) {
-    console.log("imtaahana buraxilmayacaq")
-}else{
-    console.log("imtahana buraxilsin")
+
+
+if (age > 18){
+    console.log(prompt("Nece yasin var"));
+    console.log("imtahandan kece bilmezsiz")
+}else {
+    console.log(prompt("Nece yasin var"));
+    console.log("imtahandan kece bilersiz");
+    
 }
+
