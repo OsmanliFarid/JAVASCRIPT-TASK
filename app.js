@@ -1,16 +1,13 @@
-let age = ""
-let bal = ""
+const name = prompt("adin nedir")
+const ceki = prompt("cekin ne qederdir")
+const tecrube = prompt("tecruben ne qederdir")
 
-prompt("nece yasin var")
-if ("" < 18) {
-    console.log("imtahana kece bilmezsiz 18 yasiniz olmuyub")
+if (ceki >= 70 && tecrube >= 5){
+    console.log('yarismadan kece biler')
 }else{
-    console.log("imtahana gire bilersiz")
-}if(bal <= 80) {
-    console.log("imtahandan kecibsiz");
+    console.log("yarismaya gire bilmezsen");
     
 }
-
 
 
 
